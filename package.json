@@ -1,0 +1,31 @@
+{
+  "name": "simple-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiamanti/simple-ts-boilerplate.git"
+  },
+  "author": "Michał Szura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tiamanti/simple-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Tiamanti/simple-ts-boilerplate#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "^0.0.6",
+    "typescript": "^3.6.4"
+  }
+}
