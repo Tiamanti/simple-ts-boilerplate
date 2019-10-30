@@ -1,0 +1,1 @@
+Simple page boilerplate with Google ESLint and Typescript
